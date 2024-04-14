@@ -2,12 +2,12 @@
 class FactoriOTel < Formula
   desc "Export Factorio data as OpenTelemetry signals"
   homepage "https://github.com/FactorioSharp/FactoriOTel"
-  version "0.3.5"
+  version "0.3.6"
   license "MIT"
   on_macos do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.5/FactoriOTel.0.3.5.osx-x64.tar.gz"
-      sha256 "d01f75a101323b9699f45b8685e8a7abcba63c1d7be37a2385bdd9a1680fb284"
+      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.6/FactoriOTel.0.3.6.osx-x64.tar.gz"
+      sha256 "661e02994a3204c68b5a07e9c305b3c26fcc1a49382eabb897d452ce8369aa3d"
 
       def install
         cp_r '.', bin
@@ -15,8 +15,8 @@ class FactoriOTel < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.5/FactoriOTel.0.3.5.osx-arm64.tar.gz"
-      sha256 "c4a5412e17a420175df6b8a205ca505545d4af186e91323242f88c5262a1c355"
+      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.6/FactoriOTel.0.3.6.osx-arm64.tar.gz"
+      sha256 "62f4a9082ce31e7f2bd7e4d7f776f45b877e291e8aa348d1196c2876f79ca236"
 
       def install
         cp_r '.', bin
@@ -26,8 +26,8 @@ class FactoriOTel < Formula
   end
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.5/FactoriOTel.0.3.5.linux-x64.tar.gz"
-      sha256 "f2a202d64e8193d59ede7096b780c5f3a764b63a1f2e7ff0dd6397573be2f9ff"
+      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.6/FactoriOTel.0.3.6.linux-x64.tar.gz"
+      sha256 "57f9556befb14a519d724a1a4433f72db0a753d7fd6f43ba333074992438e9bb"
 
       def install
         cp_r '.', bin
@@ -35,8 +35,8 @@ class FactoriOTel < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_32_bit?
-      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.5/FactoriOTel.0.3.5.linux-arm.tar.gz"
-      sha256 "6fb3d8ee837f4f06e70255319c145e49ee4cb612b1ade4e88c557d0a19f329b7"
+      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.6/FactoriOTel.0.3.6.linux-arm.tar.gz"
+      sha256 "b6429a87a0151e4a2a886eb52a26e63254a6f7465dc01a8f484f45d391367dc4"
 
       def install
         cp_r '.', bin
@@ -44,8 +44,8 @@ class FactoriOTel < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.5/FactoriOTel.0.3.5.linux-arm64.tar.gz"
-      sha256 "bc022c7daa9a43a8e7f93bba8f2626ccad1516e99a9642b5fcecdbbd5329e3ee"
+      url "https://github.com/FactorioSharp/FactorioSharp.Instrumentation/releases/download/v0.3.6/FactoriOTel.0.3.6.linux-arm64.tar.gz"
+      sha256 "764fde5cebb9f95b5b4bbcaf5d3c398c301ac96160b4e6f38f4cfcd32854c325"
 
       def install
         cp_r '.', bin
